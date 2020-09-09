@@ -17,7 +17,7 @@ public class Funcionario {
 	public void aumentaSalario(double porcentagem) {
 		double aumento = getSalario()*(porcentagem/100);
 		setSalario(getSalario()+aumento);
-	}
+	}//comment to test
 	
 	
 	public int getId() {
