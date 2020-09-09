@@ -1,7 +1,6 @@
 package application;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
 import java.util.Locale;
 import java.util.Scanner;
@@ -24,7 +23,6 @@ public class Program {
 
 			System.out.print("----------------------------\n");
 			System.out.println("Funcionário #" + (i + 1) + ":\n");
-			System.out.print("----------------------------\n");
 			System.out.print("ID do funcionario: ");
 			Integer id = sc.nextInt();
 			while (buscaId(funcionarios, id)) {
